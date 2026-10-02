@@ -1,0 +1,204 @@
+```css
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080d1a;
+    color: white;
+    padding: 20px;
+}
+
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background-color: #101b35;
+    color: white;
+    text-align: center;
+
+    padding: 30px;
+    margin: 20px auto;
+
+    width: 90%;
+
+    border-radius: 15px;
+    border: 1px solid #3155a5;
+
+    box-shadow: 0 4px 20px rgba(0, 120, 255, 0.7);
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #aabfff;
+}
+
+
+/* =========================
+   SECTION / CARD
+========================= */
+
+section {
+    background-color: #10182b;
+
+    width: 90%;
+    margin: 25px auto;
+
+    padding: 25px;
+
+    border-radius: 15px;
+    border: 1px solid #293d70;
+
+    box-shadow: 0 4px 20px rgba(100, 50, 255, 0.6);
+}
+
+
+/* =========================
+   JUDUL
+========================= */
+
+section h2 {
+    color: #00eaff;
+
+    margin-bottom: 20px;
+
+    font-size: 24px;
+}
+
+
+/* =========================
+   TABEL
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+/* =========================
+   TH DAN TD
+========================= */
+
+th,
+td {
+    padding: 12px;
+
+    border-bottom: 1px solid #304575;
+}
+
+
+/* =========================
+   HEADER TABEL
+========================= */
+
+th {
+    background-color: #18264a;
+
+    color: #b86cff;
+
+    text-align: center;
+}
+
+
+/* =========================
+   BIODATA
+========================= */
+
+.biodata td:first-child {
+    font-weight: bold;
+
+    width: 200px;
+
+    color: #00eaff;
+}
+
+
+/* =========================
+   JADWAL
+========================= */
+
+.jadwal td:first-child {
+    font-weight: bold;
+
+    text-align: center;
+
+    color: #ff66d9;
+}
+
+
+/* =========================
+   HOVER TABEL
+========================= */
+
+tr:hover {
+    background-color: #1c3157;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+form {
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: #111a30;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    border: 1px solid #304f91;
+
+    box-shadow:
+        0 0 10px rgba(0, 234, 255, 0.15);
+}
+
+
+/* =========================
+   LABEL
+========================= */
+
+form > label {
+    margin-top: 15px;
+    margin-bottom: 7px;
+
+    font-weight: bold;
+
+    color: #00eaff;
+
+    text-shadow:
+        0 0
+```
